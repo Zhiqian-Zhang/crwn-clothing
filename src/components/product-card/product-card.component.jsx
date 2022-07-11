@@ -4,7 +4,7 @@ import { CartContext } from '../../contexts/cart.context';
 
 import Button, { BUTTON_TYPE_CLASSES } from '../button/button.component';
 
-import './product-card.styles.scss';
+import './product-card.styles.jsx';
 
 const ProductCard = ({ product }) => {
   const { name, price, imageUrl } = product;

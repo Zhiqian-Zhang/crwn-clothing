@@ -2,7 +2,6 @@ import { createContext, useState, useReducer } from 'react';
 
 import { createAction } from '../utils/reducer/reducer.utils';
 
-
 const addCartItem = (cartItems, productToAdd) => {
   const existingCartItem = cartItems.find(
     (cartItem) => cartItem.id === productToAdd.id
